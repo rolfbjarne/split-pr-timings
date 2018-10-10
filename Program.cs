@@ -41,6 +41,8 @@ namespace splitprtimings {
 		}
 		public static int Main (string [] args)
 		{
+			// This tool takes jenkins job numbers as input, downloads the console log, and parses the console log to see how much each step takes.
+
 			var actions = new string [] {
 				"Date",
 				"Url",
