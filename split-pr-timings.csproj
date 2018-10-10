@@ -28,6 +28,21 @@
     <ExternalConsole>true</ExternalConsole>
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Mono bumps' ">
+    <StartAction>Project</StartAction>
+    <StartArguments>7846 8067 8149</StartArguments>
+    <ExternalConsole>false</ExternalConsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'READM / doc changes' ">
+    <StartAction>Project</StartAction>
+    <StartArguments>8270 8271</StartArguments>
+    <ExternalConsole>false</ExternalConsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'src change' ">
+    <StartAction>Project</StartAction>
+    <StartArguments>8274 8238 8237</StartArguments>
+    <ExternalConsole>false</ExternalConsole>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
   </ItemGroup>
